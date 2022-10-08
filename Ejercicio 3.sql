@@ -1,0 +1,6 @@
+USE AdventureWorks2019
+GO
+CREATE ROLE Vendedores AUTHORIZATION [dbo]
+GO
+GRANT SELECT ON SCHEMA::Sales TO Sales
+GO
